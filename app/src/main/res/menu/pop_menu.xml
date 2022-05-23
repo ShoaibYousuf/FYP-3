@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/one"
+        android:title="1 hour" />
+    <item android:id="@+id/two"
+        android:title="2 hour" />
+    <item android:id="@+id/three"
+        android:title="3 hour" />
+    <item android:id="@+id/four"
+        android:title="4 hour" />
+    <item android:id="@+id/five"
+        android:title="5 hour" />
+    <item android:id="@+id/six"
+        android:title="6 hour" />
+    <item android:id="@+id/saven"
+        android:title="7 hour" />
+    <item android:id="@+id/eight"
+        android:title="8 hour" />
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/restaurant_list">
+
+    <fragment
+        android:id="@+id/restaurant_list"
+        android:name="com.example.swiftbay.OrderNowFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_order_now" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.swiftbay.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_schedule_order" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.swiftbay.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_pickup_order" />
+    <fragment
+        android:id="@+id/loginTabFragment"
+        android:name="com.example.swiftbay.LoginTabFragment"
+        android:label="LoginTabFragment" />
+</navigation>

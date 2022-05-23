@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:id="@+id/appBarLayout"
+       android:layout_width="match_parent"
+       android:layout_height="70dp">
+
+      <androidx.appcompat.widget.Toolbar
+          android:id="@+id/restaurant_home_page_toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:background="@color/primary"
+          android:theme="@style/Theme.SwiftBay"
+          tools:context=".restaurant_home_page">
+
+         <ImageView
+             android:id="@+id/logo"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_margin="8dp"
+             android:contentDescription="TODO"
+             android:gravity="center_vertical"
+             android:padding="5dp"
+             app:srcCompat="@drawable/restaurant_logo_testing" />
+
+         <TextView
+             android:id="@+id/yourOrders"
+             style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+             android:layout_width="wrap_content"
+             android:layout_height="33dp"
+             android:layout_margin="8dp"
+             android:gravity="center_vertical"
+             android:padding="5dp"
+             android:text="Your Orders" />
+      </androidx.appcompat.widget.Toolbar>
+
+   </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
